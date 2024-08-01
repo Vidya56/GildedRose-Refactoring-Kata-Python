@@ -1,5 +1,6 @@
+import sys
 import logging
-from src.utils import load_rules
+from rules import load_rules
 
 
 # Set up logging

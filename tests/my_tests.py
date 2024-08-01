@@ -3,6 +3,7 @@ import unittest
 sys.path.append('..')
 from gilded_rose_refactored import *
 
+
 class TestGildedRose(unittest.TestCase):
 
     def setUp(self):
