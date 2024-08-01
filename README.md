@@ -37,13 +37,17 @@ There are a few constraints that we need to consider before refactoring.
 2. The minimum and maximum values for quality can only be 0 and 50 respectively.
 
 ## Folder Structure
-1. src folder
+
+1. src 
     1. utils.py - Defines the utilities for running the main gilded rose python file like Actions and UpdateRuleSet.
     2. rules.py - The main rules that each item follows can be found here.
     3. gilded_rose_refactored.py -  The main gilded rose file, which carries out the operations for the Gilded Rose Store.
 2. tests
     1. my_tests.py - Contains the Custom unit tests that was used for the development of Gilded Rose.
-    2. texttest_fixture.py - Test found in the original repo. 
+    2. texttest_fixture.py - Test found in the original repo.
+3. requirements.txt -  Packages needed to create a virtual environment to run this code. 
+4. README.md
+5. .gitignore
 
 ## Run the unit tests from the Command-Line
 
